@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUBTERRA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<div class="bg-fill" id="bgFill">
+  <div class="bg-watermark"></div>
+  <div class="bg-stripes"></div>
+</div>
+
+<nav id="nav">
+  <div class="nav-brand">
+    <img src="assets/logo-mark.png" alt="">
+    <span class="nav-mark">SUBTERRA</span>
+  </div>
+  <div class="nav-index">
+    <a href="#lineup">Line-up</a>
+    <a href="#details">Detalles</a>
+  </div>
+</nav>
+
+<section class="stage-wrap" id="stageWrap">
+  <div class="stage">
+
+    <div class="logo-stage" id="logoStage">
+      <div class="flip-perspective" id="flipPerspective">
+        <div class="flip-inner" id="flipInner">
+          <div class="flip-face front"><img src="assets/logo-mark.png" alt="SUBTERRA"></div>
+          <div class="flip-face back"><img src="assets/logo-full.png" alt="SUBTERRA"></div>
+        </div>
+      </div>
+      <p class="logo-tagline" id="logoTagline">UN CYPHER DE SUBTERRA.</p>
+      <div class="scroll-cue" id="scrollCue">
+        <div class="scroll-cue-line"></div>
+        <div class="scroll-cue-label">SIGUE DESLIZANDO</div>
+      </div>
+    </div>
+
+    <div class="trailer-stage" id="trailerStage">
+      <div class="trailer-media">
+        //VIDEO SUBTERRA
+      </div>
+      <div class="trailer-play" id="trailerPlay" role="button" aria-label="Reproducir trailer">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6 4L20 12L6 20V4Z" fill="#eae7e1"/></svg>
+      </div>
+      <div class="trailer-kicker">TRAILER</div>
+      <h2>SUBTERRA CYPHER.</h2>
+    </div>
+
+  </div>
+</section>
+
+<section class="lineup-section" id="lineup">
+  <div class="lineup-heading">
+    <div class="section-kicker">LINE-UP</div>
+    <h2>Artistas</h2>
+  </div>
+  <div id="artistsList"></div>
+</section>
+
+<section class="details" id="details">
+  <div class="details-grid">
+    <div>
+      <div class="details-kicker">DETALLES</div>
+      <h2><br><br></h2>
+    </div>
+    <div class="details-info">
+      <div class="info-row"><span></span><span></span></div>
+      <div class="info-row"><span></span><span> </span></div>
+      <div class="info-row"><span></span><span> </span></div>
+      <div class="info-row"><span></span><span></span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-mark">SUBTERRA</div>
+  <div class="footer-links">
+    <a href="#">Instagram</a>
+    <a href="#">YouTube</a>
+    <a href="#">TikTok</a>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+
+</body>
+</html>
